@@ -1,0 +1,35 @@
+## Demo .gitignore zur Teilprüfung 1 von Dirk Reinarz
+## Aufgrund mangelnder Kenntnisse über Webentwicklungsumgebungen werden nur beispielhafte Einträge aufgeführt
+
+# Ignore log files
+*.[Ll][Oo][Gg]
+
+# Pacetmanager files
+[Pp]acketmanager[Ii]nstallations/
+*.packetmanagerfiletype
+
+# File types to ignore
+*.[Tt][Mm][Pp]
+*.xyz
+*.[Ss]ha
+
+# File names to ignore
+temp_*
+*_tmp_*
+*temporary.txt
+[Dd]elete[Mm]e.*
+
+# Ignore file name, but not folders with that names
+src_*
+!src_*/
+
+# Folders to ignore (on all levels)
+build/
+temp/
+keep/dismiss/
+
+# Folders in specific folders to ignore
+**/dis/miss/
+
+# Folders to ignore on root levels
+/ignore[Mm]e/
